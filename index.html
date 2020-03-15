@@ -1,7 +1,111 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-<body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
-</body>
+  <head>
+      <meta charset="utf-8">
+      <meta name="description" content="">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Bill McCann on GitHub</title>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,600,700,800,900" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/railscasts.min.css">
+      <link rel="stylesheet" href="scribbler-global.css">
+      <link rel="stylesheet" href="scribbler-landing.css">
+      <link rel="author" href="humans.txt">
+  </head>
+  <body>
+    <nav>
+      <div class="logo"></div>
+      <ul class="menu">
+        <div class="menu__item toggle"><span></span></div>
+        <li class="menu__item"><a href="https://iambillmccann.blogspot.com/" class="link link--dark"><i class="fa fa-book"></i> Blog</a></li>
+        <li class="menu__item"><a href="https://github.com/iambillmccann" class="link link--dark"><i class="fa fa-github"></i> Github</a></li>
+      </ul>
+    </nav>
+    <div class="hero">
+      <h1 class="hero__title">Bill McCann</h1>
+      <p class="hero__description">A portfolio of my projects</p>
+    </div>
+    <div class="hero__terminal">
+      <pre>
+        <!-- Place your demo code here -->
+        <code class="shell-session demo">$ </code>
+      </pre>
+    </div>
+    <div class="wrapper">
+      <!--  I like this code, but don't need it here
+      <div class="installation">
+        <h3 class="section__title">Installation</h3>
+        <div class="tab__container">
+          <ul class="tab__menu">
+            <li class="tab active" data-tab="mac">mac</li>
+            <li class="tab" data-tab="linux">linux</li>
+            <li class="tab" data-tab="win">win</li>
+          </ul>
+          <pre class="nohighlight code">
+            <code class="tab__pane active mac">$  brew install scribbler</code>
+            <code class="tab__pane linux">$  apt-get install scribbler</code>
+            <code class="tab__pane win">$  gem install scribbler</code>
+          </pre>
+        </div>
+      </div>
+      -->
+      <div class="feature">
+        <div class="feature__item">
+          <h3 class="section__title">Data Science</h3>
+          <p>I have three projects in my public repositories. The first is a collection of R code for the Johns Hopkins data Science
+              certification. The second is Octave code for a Stanford machine learning class. Finally is a Python solution to a technical
+              test for Eigen Technologies.</p>
+          <ul>
+              <li><a href="https://github.com/iambillmccann/Data-Science-Specialization">Data Science Specialization (R)</a></li>
+              <li><a href="https://github.com/iambillmccann/Octave-Data-Science">Stanford Data Science (Octave)</a></li>
+              <li><a href="https://github.com/iambillmccann/InterestingWords">Interesting Words(Python)</a></li>
+          </ul>
+        </div>
+        <div class="feature__item">
+          <h3 class="section__title">Project Euler</h3>
+          <p>I use <a href="https://projecteuler.net/">Project Euler</a> to keep my coding skills sharp. I have six projects in my
+            public repositories. These projects are organized by language, there is a repository for C#, Java, Python, Scala,
+            Rust, and C++./p>
+          <ul>
+              <li><a href="https://github.com/iambillmccann/ProjectEuler">c#</a></li>
+              <li><a href="https://github.com/iambillmccann/ProjectEulerJava">Java</a></li>
+              <li><a href="https://github.com/iambillmccann/ProjectEulerPython">Python</a></li>
+              <li><a href="https://github.com/iambillmccann/ProjectEulerScala">Scala</a></li>
+              <li><a href="https://github.com/iambillmccann/ProjectEulerRust">Rust</a></li>
+              <li><a href="https://github.com/iambillmccann/ProjectEulerCPP">c++</a></li>
+          </ul>
+        </div>
+        <div class="feature__item">
+          <h3 class="section__title">Let's Hang</h3>
+          <p>Let's Hang is a Progressive Web App (PWA) that helps friends find a place to meet. It's a VusJS frontend with a Python RESTful API
+              backend and a Firebase repository. It uses <a href="https://auth0.com/">Auth0</a>a for registration and authentication. theScribbler
+              repositories are owned by my collaborator Joe McCann.</p>
+              <li><a href="https://github.com/Joe-McCann/LetsHang-FrontEnd">Let's Hang frontend</a></li>
+              <li><a href="https://github.com/Joe-McCann/LetsHang-BackEnd">Let's Hang backend</a></li>
+        </div>
+        <!-- extra sample sections
+        <div class="feature__item">
+          <h3 class="section__title">Configuration</h3>
+          <p>Maintain all your settings in a single <span class="code code--inline">config.json</span> file. Never need to redo the setting every single time jotting down a note.</p>
+        </div>
+        <div class="feature__item">
+          <h3 class="section__title">Highlightings</h3>
+          <p>For better readability, scribbler has a clean, beautiful color scheme allow you to scan files fast.</p>
+        </div>
+        <div class="feature__item">
+          <h3 class="section__title">Keybindings</h3>
+          <p>You can expect common keybindings for scribbler. Customize <span class="code code--inline">bindings.json</span> for your own liking! </p>
+        </div>
+        -->
+      </div>
+      <div class="callout">
+        <p>Not everything I do is serious ... I like to play too.</p>
+        <a href="https://weresuchgeeks.blogspot.com/" class="button--primary">Gaming</a>
+      </div>
+    </div>
+    <footer class="footer">This page is built from the Scribbler HTML template created by <a href="https://tympanus.net/codrops/" target="_blank" class="link link--light">Codrops</a>.</footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <script src="scribbler.js"></script>
+  </body>
 </html>
